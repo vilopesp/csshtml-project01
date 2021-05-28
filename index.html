@@ -7,7 +7,6 @@
     <title>Lorem Ipsum</title>
 
     <link rel="stylesheet" href="style.css">
-    <script src="./darkmode.js"></script>
 </head>
 <body>
     <header>
@@ -17,12 +16,17 @@
         <div id="logo">
             <a href="#">
                 <svg width="33" height="37" viewBox="0 0 33 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path class="logo-line" d="M16.3632 4.1264L22.6252 7.52749L25.8003 5.80809L16.3632 0.680054L0.600098 9.24689L3.75914 10.9663L16.3632 4.1264Z" fill="black"/>
-                    <path d="M29.2253 7.33588L16.6292 14.5834L10.3673 10.9796L7.2002 12.8015L16.6292 18.2272L32.4004 9.15775L29.2253 7.33588Z" fill="#E8B80E"/>
-                    <path class="logo-line" d="M3.13432 19.3368L0 17.6221V27.8355L15.6002 36.3793V32.9498L3.13432 26.1207V19.3368Z" fill="black"/>
-                    <path d="M0 13.9015L12.4658 20.943V27.9457L15.6002 29.7236V19.1729L0 10.3613V13.9015Z" fill="#E8B80E"/>
-                    <path d="M26.4001 17.4523V13.9917L17.4 19.1447V36.3794L20.4204 34.6491V20.875L26.4001 17.4523Z" fill="#E8B80E"/>
-                    <path class="logo-line" d="M29.7701 12.0916V25.8581L23.3999 29.2883V32.749L33 27.5884V10.3613L29.7701 12.0916Z" fill="black"/>
+                    <path class="bline" d="M16.3632 4.1264L22.6252 7.52749L25.8003 5.80809L16.3632 0.680054L0.600098 9.24689L3.75914 10.9663L16.3632 4.1264Z" fill="black"/>
+
+                    <path class="yline" d="M29.2253 7.33588L16.6292 14.5834L10.3673 10.9796L7.2002 12.8015L16.6292 18.2272L32.4004 9.15775L29.2253 7.33588Z" fill="#E8B80E"/>
+
+                    <path class="bline" d="M3.13432 19.3368L0 17.6221V27.8355L15.6002 36.3793V32.9498L3.13432 26.1207V19.3368Z" fill="black"/>
+
+                    <path class="yline" d="M0 13.9015L12.4658 20.943V27.9457L15.6002 29.7236V19.1729L0 10.3613V13.9015Z" fill="#E8B80E"/>
+
+                    <path class="yline" d="M26.4001 17.4523V13.9917L17.4 19.1447V36.3794L20.4204 34.6491V20.875L26.4001 17.4523Z" fill="#E8B80E"/>
+
+                    <path id="bline" d="M29.7701 12.0916V25.8581L23.3999 29.2883V32.749L33 27.5884V10.3613L29.7701 12.0916Z" fill="black"/>
                     </svg>
             </a>
         </div>
@@ -35,8 +39,8 @@
 
         <!-- DARK MODE SWITCH TOGGLE -->
         <div>
-            <input type="checkbox" class="checkbox" id="toggle">
-            <label for="toggle" class="label">
+            <input type="checkbox" class="checkbox" id="chk">
+            <label for="chk" class="label">
                 
                 <i class="fas fa-moon"> 
                     <img class="moon-img" src="/contents/moon.svg" alt="Moon">
@@ -73,6 +77,8 @@
             <img id="content-image" src="./contents/flowers.svg" alt="Flower Image">
         </div>
     </div>
+
+    <script src="./darkmode.js"></script>
 
 </body>
 </html>

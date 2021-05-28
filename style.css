@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Rubik');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -62,6 +63,14 @@ header #logo {
     align-items: center;
 }
 
+svg path:nth-child(1), svg path:nth-child(3), svg path:nth-child(6) {
+    fill: rgb(160, 160, 160);
+}
+
+svg path:nth-child(1).dark, svg path:nth-child(3).dark, svg path:nth-child(6).dark {
+    fill: rgb(194, 194, 194);
+}
+
 header #navbar {    
     text-align: center;
     width: inherit;
@@ -71,6 +80,7 @@ header #navbar {
 }
 
 header #navbar a {
+    color: var(--text-light-mode);
     text-align: center;
     margin-right: 5rem;
 
@@ -79,6 +89,10 @@ header #navbar a {
 
 header #navbar a:hover {
     color: var(--primary-color);
+}
+
+header #navbar a.dark {
+    
 }
 
 #container {
@@ -103,8 +117,14 @@ header #navbar a:hover {
 }
 
 #container #social-medias a{
+    color: var(--text-light-mode);
+
     margin: auto;
     cursor: pointer;
+}
+
+#container #social-medias a.dark{
+    color: var(--text-dark-mode);
 }
 
 #container #social-medias a:hover {
@@ -191,11 +211,10 @@ body.dark {
 }
 
 .label {
-    background-color: #111;
+    background-color: var(--primary-color);
     border-radius: 50px;
 
     cursor: pointer;
-    transform: scale(1.5);
 
     display: flex;
     align-items: center;
@@ -208,10 +227,12 @@ body.dark {
 
     height: 16px;
     width: 32px;
+
+    transform: scale(1.5);
 }
 
 .label.dark {
-    background-color: #fff;
+    background-color: var(--light-mode);
 }
 
 .label .ball {
@@ -256,4 +277,8 @@ body.dark {
 
 checkbox:checked + .label {
     background-color: white;
+}
+
+header #navbar a.dark {
+    color: var(--text-dark-mode);
 }
