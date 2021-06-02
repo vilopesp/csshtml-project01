@@ -32,6 +32,31 @@ a {
     text-decoration: none;
 }
 
+/* ----- BODY DARK THEME ----- */
+
+body.dark-theme {
+    background: var(--dark-mode);
+    color: var(--text-dark-mode);
+}
+
+body.dark-theme a {
+    color: var(--text-dark-mode)
+}
+
+body.dark-theme #navbar a {
+    color: var(--text-dark-mode);
+}
+
+body.dark-theme #container #social-medias a {
+    color: var(--text-dark-mode)
+}
+
+body.dark-theme #container #content #button {
+    color: var(--text-dark-mode);
+}
+
+/* ----- HEADER ----- */
+
 header {
     width: 100%;
     height: 6rem;
@@ -64,8 +89,24 @@ header #logo {
 }
 
 svg path:nth-child(1), svg path:nth-child(3), svg path:nth-child(6) {
-    fill: rgb(160, 160, 160);
+    fill: var(--text-light-mode);
 }
+
+/* ----- LOGO DARK MODE ----- */
+
+body.dark-theme svg path:nth-child(1) {
+    fill: var(--text-dark-mode);
+}
+
+body.dark-theme svg path:nth-child(6) {
+    fill: var(--text-dark-mode);
+}
+
+body.dark-theme svg path:nth-child(3) {
+    fill: var(--text-dark-mode);
+}
+
+/* ----- HEADER DARK MODE ----- */
 
 header #navbar {    
     text-align: center;
@@ -188,11 +229,6 @@ header #navbar a:hover {
 }
 
 /* ----- DARK MODE TOGGLE ----- */
-
-body.dark {
-    background-color: var(--dark-mode);
-    color: var(--text-dark-mode); 
-}
 
 .checkbox {
     opacity: 0;
