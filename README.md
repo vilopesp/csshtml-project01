@@ -12,10 +12,10 @@
 <img src="./contents/uidesign-dark.png" alt="uidesign-dark">
 <br>
 <br>
-## :raising_hand: Autora
+<h3> :raising_hand: Autora
 
  <img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/64246018?s=460&u=3d07c48c53255d53e3406037c7f98af14fd98689&v=4" width="100px;" alt="Imagem do Autor"/>
- <br/>
+ <br/> 
  <sub><b>Redes Sociais</b></sub> 
  <br/>
 
