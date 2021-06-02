@@ -1,5 +1,5 @@
 <h1> UI & CSS PROJECT :bulb:</h1> 
-<h3> Personal project developed to practice my CSS and Interface Design. </h3> <br>
+<h3> Personal project developed to practice my CSS and Interface Design. </h3> 
 
 <h2> THE UI :art: </h2> 
 <p>For this project, I wanted a minimalist but modern design with a technological vibe. I couldn't reach the initial result I had in mind, but I really liked the result I got at the end.</p><br>
@@ -13,7 +13,7 @@
 <br>
 <br>
 <h3> :raising_hand: Autora
-
+<br>
  <img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/64246018?s=460&u=3d07c48c53255d53e3406037c7f98af14fd98689&v=4" width="100px;" alt="Imagem do Autor"/>
  <br/> 
  <sub><b>Redes Sociais</b></sub> 
