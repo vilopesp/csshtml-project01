@@ -25,4 +25,4 @@
 
 ---
 
-Dsenvolvido por Vitória Lopes 👋🏻 [Entre em contato!](https://www.linkedin.com/in/vilopesp/)
+<p> Desenvolvido por Vitória Lopes 👋🏻 [Entre em contato!](https://www.linkedin.com/in/vilopesp/) </p>
