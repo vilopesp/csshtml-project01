@@ -14,7 +14,7 @@
 <br>
 
 
-<h4> :raising_hand: Autora </h4>
+<h3> :raising_hand: Autora </h3>
  <img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/64246018?s=460&u=3d07c48c53255d53e3406037c7f98af14fd98689&v=4" width="100px;" alt="Imagem do Autor"/>
  <br> 
  <sub><b>Redes Sociais</b></sub> 
